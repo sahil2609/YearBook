@@ -32,7 +32,7 @@ if PRODUCTION:
     SESSION_COOKIE_SECURE = True
     CSRF_COOKIE_SECURE = True
 
-ALLOWED_HOSTS = ['localhost', '172.17.1.128', 'www.iitg.ac.in']
+ALLOWED_HOSTS = ['localhost', '172.17.1.128', 'www.iitg.ac.in', '127.0.0.1']
 
 # Application definition
 
