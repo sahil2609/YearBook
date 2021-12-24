@@ -1,6 +1,6 @@
 # [SAIL YearBook Portal](https://www.iitg.ac.in/yearbook)
 
-The clean, fast and right way to start a new Django powered website.
+The clean, fast and right way to start a `Django 2.2.20` powered website.
 
 ## Getting Started
 
