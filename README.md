@@ -7,15 +7,11 @@ The clean, fast and right way to start a new Django powered website.
 Setup project environment with [virtualenv](https://virtualenv.pypa.io) and [pip](https://pip.pypa.io).
 
 ```bash
+$ git clone https://github.com/Student-Alumni-Interaction-Linkage-IITG/YearBook.git
 $ virtualenv project-env
 $ source project-env/bin/activate
-$ pip install -r https://raw.githubusercontent.com/juanifioren/django-project-template/master/requirements.txt
-
-# You may want to change the name `projectname`.
-$ django-admin startproject --template https://github.com/juanifioren/django-project-template/archive/master.zip projectname
-
-$ cd projectname/
-$ cp settings_custom.py.edit settings_custom.py
+$ cd YearBook/
+$ pip install -r requirements.txt
 $ python manage.py migrate
 $ python manage.py runserver
 ```
